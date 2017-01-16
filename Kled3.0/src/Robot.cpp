@@ -35,7 +35,7 @@ public:
 		chooser.AddObject(autoNameCustom, autoNameCustom);
 		SmartDashboard::PutData("Auto Modes", &chooser);
 		Jyro.Reset();
-		frc::CameraServer::GetInstance()->StartAutomaticCapture():
+		frc::CameraServer::GetInstance()->StartAutomaticCapture();
 	}
 
 	void Autonomous()
